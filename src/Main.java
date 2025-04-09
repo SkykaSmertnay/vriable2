@@ -51,7 +51,7 @@ public class Main {
         int productivityPer20Min = productivityPerMin * 20;
         int productivityPerDay = productivityPerMin * 60 * 24;
         int productivityPer3Days = productivityPerDay * 3;
-        int productivityPerMonth = productivityPerDay * 30 * 3;
+        int productivityPerMonth = productivityPerDay * 30;
         System.out.println("За 20 минут машина произвела " + productivityPer20Min + " штук бутылок");
         System.out.println("За день машина произвела " + productivityPerDay + " штук бутылок");
         System.out.println("За 3 дня машина произвела " + productivityPer3Days + " штук бутылок");
